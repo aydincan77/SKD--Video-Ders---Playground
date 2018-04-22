@@ -13,7 +13,7 @@ for chAyır in kelime {
 
 // String tipe Character ekleme
 var varA:String = "Selam "
-let varB:Character = "G"
+let varB:Character = "!"
 
 varA.append( varB )
 print("varA'nın değeri = \(varA)")
