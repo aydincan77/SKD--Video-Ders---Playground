@@ -26,6 +26,7 @@ import UIKit
 var büyükHarfB : Character
 büyükHarfB = "B"
 
+
 // 2- var <#name#> : Character = "<#value#>"
 var büyükA : Character = "A"
 
@@ -39,7 +40,7 @@ z = "z"
 // 4- var <#name#> = "<#value#>" as Character
 var büyükHarfC = " " as Character
 büyükHarfC = "C"
-print(büyükHarfC)
+
 
 /* UNİCODE TANIMLAMA ANAHTARI
  
@@ -55,6 +56,11 @@ var büyükAUnicode = "\u{41}"
 var dollarSignUnicode = "\u{24}"
 var sparklingHeartUnicode = "\u{1F496}"
 var emojiUnicode = "\u{1F630}"
+
+var emojiUnicode1 = "\u{1F602}"
+
+
+
 
 
 // STRİNG TANIMLAMA ÇEŞİTLERİ
@@ -122,6 +128,7 @@ d = 10
 e = 10
 f = 1000000000
 
+
 // FLOAT TANIMLAMA ÇEŞİTLERİ
 
 // 1- var <#name#> : Float = <#value#>
@@ -140,6 +147,9 @@ var g, h, ı : Float
 g = 0
 h = 2
 ı = -2
+
+
+
 
 // DOUBLE TANIMLAMA ÇEŞİTLERİ
 // 1- var <#name#> = <#value#>
