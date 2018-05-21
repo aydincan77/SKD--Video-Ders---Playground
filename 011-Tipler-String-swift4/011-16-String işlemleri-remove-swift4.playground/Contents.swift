@@ -49,7 +49,7 @@ print(swiftÖğreniyorum)
 
 // REMOVESUBRANGE
 /*
- String değerin içinde istenen değeri kaldırır
+ String değerin içinde istenen aralık değerlerini kaldırır
  aralıkİşlemi.removeSubrange(<#T##bounds: Range<String.Index>##Range<String.Index>#>)
  */
 var aralıkİşlemi = "Merhaba, nasılsın?"

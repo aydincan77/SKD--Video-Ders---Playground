@@ -11,6 +11,7 @@ kelimeAt.dropFirst()
 var kelimeAt = "Kelime"
 
 kelimeAt.dropFirst()
+print(kelimeAt)
 
 
 /*
@@ -18,7 +19,7 @@ kelimeAt.dropFirst()
  kelimeAt.dropFirst(<#T##n: Int##Int#>)
  */
 kelimeAt.dropFirst(2)
-
+print(kelimeAt)
 
 // DROPLAST
 /*
@@ -26,11 +27,11 @@ kelimeAt.dropFirst(2)
  kullanıcıAdı.dropLast()
  */
 kelimeAt.dropLast()
-
+print(kelimeAt)
 
 /*
  String değerin son ... harfini atar
  kelimeAt.dropLast(<#T##n: Int##Int#>)
  */
 kelimeAt.dropLast(3)
-
+print(kelimeAt)

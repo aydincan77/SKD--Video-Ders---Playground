@@ -17,7 +17,7 @@ selam.append("!")
  String değerinin sonuna şu içeriği ekle demek, (Tırnak içine istediğini yaz)
 selam.append(contentsOf: <#T##Sequence#>)
 */
-selam.append(contentsOf: " Arkadaşım")
+//selam.append(contentsOf: " Arkadaşım")
 selam.append(contentsOf: selam)
 
 /*
@@ -25,8 +25,6 @@ selam.append(contentsOf: selam)
 selam.append(<#T##other: String##String#>)
 */
 selam.append("Arkadaş")
-
-
 
 // İNSERT
 /*
