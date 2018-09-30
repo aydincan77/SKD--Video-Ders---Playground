@@ -11,3 +11,5 @@ selamlama.description
 var selamlama = "Merhaba!"
 
 selamlama.description
+
+
