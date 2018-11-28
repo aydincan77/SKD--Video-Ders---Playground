@@ -10,6 +10,10 @@ let tekSayılar = [1, 3, 5, 7, 9, 11, 13, 15]
 // Bir "String" elementli Dizi (Array) örneği
 let şehirler = ["Tekirdağ", "Kocaeli", "Edirne"]
 
+// Dizi içinde Dizi
+var diziİçindeDizi = [["a", "b", "c"],["d", "e", "f"]]
+print(diziİçindeDizi[0][1])
+
 // BİR DİZİYE TEKRAREN SABİT DEĞERLER ATAMA ********************
 var rakamSay = Array(repeating: 0, count: 10)
 
@@ -78,4 +82,6 @@ sayılar[2] = 300
 print(sayılar)
 print(birinciKopya)
 print(ikinciKopya)
+
+
 
