@@ -45,6 +45,7 @@ print(setÜlkeSil)
 
 // İçeriyor mu?
 var setÜlkeİçeriyormu : Set = ["Türkiye","Azerbaycan"]
+
 if setÜlkeİçeriyormu.contains("Azerbaycan") {
     print("Evet, içeriyor.")
 } else {
