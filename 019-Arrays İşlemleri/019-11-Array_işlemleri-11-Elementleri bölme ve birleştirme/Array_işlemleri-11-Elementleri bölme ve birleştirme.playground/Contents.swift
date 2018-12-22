@@ -3,31 +3,27 @@ import UIKit
 
 // SPLİTTİNG AND JOİNİNG ELEMENTS : ELEMENTLERİ BÖLME VE BİRLEŞTİRME
 
-// split(separator:maxSplits:omittingEmptySubsequences:) : Sırasıyla, verilen öğeye eşit öğelerin etrafında, sıranın mümkün olan en uzun alt kümelerini döndürür.
 let satır = "Hacivat : Selam Karagözüm, ben geldim, selam."
 
-// separator : verilen kritere göre böler
-print(satır.split(separator: " ").map(String.init))
+// split(separator: <#T##Character#>): verilen kritere göre böler
+var satırSplit1 = satır.split(separator: " ")
 
-// maxSplits : verilen kritere göre maksimum bölünme miktarı
-print(satır.split(separator: " ", maxSplits: 1).map(String.init))
+// split(separator: <#T##Character#>, maxSplits: <#T##Int#>, omittingEmptySubsequences: <#T##Bool#>) : verilen kritere göre maksimum bölünme miktarı
+var satırSplit2 = satır.split(separator: " ", maxSplits: 3)
 
-// omittingEmptySubsequences : verilen kritere göre böler
-print(satır.split(separator: " ", omittingEmptySubsequences: false).map(String.init))
+// split(separator: <#T##Character#>, maxSplits: <#T##Int#>, omittingEmptySubsequences: <#T##Bool#>) : verilen kritere göre maksimum bölünme miktarı
+var satırSplit3 = satır.split(separator: " ", maxSplits: 1, omittingEmptySubsequences: false)
 
-// joined() : Dizi koleksiyonu içindeki her bir elementi tek bir değer olarak toplar
-let ranges = [0..<3, 8..<10, 15..<17]
-for index in ranges.joined() {
-    print(index, terminator: " ")
+
+// joined() : Dizi koleksiyonu içindeki her bir elementi tek bir değer olarak birleştirir
+let aralıkDizileri = [0..<3, 8..<10, 15..<17]
+
+for değer in aralıkDizileri.joined() {
+    print(değer, terminator: " ")
 }
 
-// joined(separator:) : Dizi koleksiyonu içindeki her bir elementin arasına separator ekleyerek yeni bir dizi oluşturur.
-let içİçeGeçmişSayılar = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
-let birleşmişSayılar = içİçeGeçmişSayılar.joined(separator: [-1, -2])
-print(Array(birleşmişSayılar))
-
+// joined(separator: <#T##Sequence#>) : Dizi koleksiyonu içindeki her bir elementin arasına separator ekleyerek tek bir değer olarak birleştirir.
 let isimlerDizisi = ["Vivien", "Marlon", "Kim", "Karl"]
-let birleşmişİsimler = isimlerDizisi.joined(separator: ", ")
-print(birleşmişİsimler)
 
+let birleşmişİsimler = isimlerDizisi.joined(separator: ", ")
 

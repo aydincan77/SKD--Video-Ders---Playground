@@ -3,14 +3,14 @@ import UIKit
 
 // COMPARİNG ARRAYS : DİZİLERİ KIYASLAMA
 
-// elementsEqual(_:) : Bir dizinin aynı sırayla aynı elementleri içerip içermediğini sorgular. Bool değer döndürür.
+// elementsEqual(<#T##other: Sequence##Sequence#>) : Bir dizinin aynı sırayla aynı elementleri içerip içermediğini sorgular. Bool değer döndürür.
 let a = 1...3
 let b = 1...10
 
 print(a.elementsEqual(b))
 print(a.elementsEqual([1, 2, 3]))
 
-// starts(with:) : Dizinin başlangıç öğelerinin, başka bir dizideki öğelerle aynı olup olmadığını belirten bir Boole değeri döndürür.
+// starts(with: <#T##Sequence#>) : Dizinin başlangıç öğelerinin, başka bir dizideki öğelerle aynı olup olmadığını belirten bir Boole değeri döndürür.
 let c = 1...3
 let d = 1...10
 

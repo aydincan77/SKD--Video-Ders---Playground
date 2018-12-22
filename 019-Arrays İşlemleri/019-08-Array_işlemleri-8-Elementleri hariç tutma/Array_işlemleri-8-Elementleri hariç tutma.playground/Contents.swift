@@ -7,7 +7,7 @@ import UIKit
 let sayıDizisi1 = [1, 2, 3, 4, 5]
 print(sayıDizisi1.dropFirst())
 
-// dropFirst(_:) : Dizinin başından itibaren belirtilen değerleri hariç tutup yeni bir dizi döndürür.
+// dropFirst(<#T##k: Int##Int#>) : Dizinin başından itibaren belirtilen değerleri hariç tutup yeni bir dizi döndürür.
 let sayıDizisi2 = [1, 2, 3, 4, 5]
 print(sayıDizisi2.dropFirst(2))
 print(sayıDizisi2.dropFirst(10))
@@ -16,7 +16,7 @@ print(sayıDizisi2.dropFirst(10))
 let sayıDizisi3 = [1, 2, 3, 4, 5]
 print(sayıDizisi3.dropLast())
 
-// dropLast(_:) : Dizinin sonundan itibaren belirtilen değerleri hariç tutup yeni bir dizi döndürür.
+// dropLast(<#T##k: Int##Int#>) : Dizinin sonundan itibaren belirtilen değerleri hariç tutup yeni bir dizi döndürür.
 let sayıDizisi4 = [1, 2, 3, 4, 5]
 print(sayıDizisi4.dropLast(2))
 print(sayıDizisi4.dropLast(10))

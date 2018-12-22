@@ -3,44 +3,40 @@ import UIKit
 
 // REORDERİNG AN ARRAY'S ELEMENTS : DİZİNİN ELEMENTLERİNİ YENİDEN SIRALAMA
 
-// sort() : Koleksiyonu yerinde sıralar.
-var öğrenciler1 = ["Kofi", "Abena", "Peter", "Kweku", "Akosua"]
+// sort() : Diziyi sıralar.
+var öğrenciler1 = ["Kemal", "Aydın", "Polat", "Zeynep", "Ayşe"]
+
 öğrenciler1.sort()
-print(öğrenciler1)
 
-// sort(by:) : Koleksiyonu, belirtilen kritere göre sıralar.
+// sort(by: <#T##(String, String) throws -> Bool#>) : Diziyi, belirtilen kritere göre sıralar.
 öğrenciler1.sort(by: >)
-print(öğrenciler1)
+
 öğrenciler1.sort(by: <)
-print(öğrenciler1)
 
-// sorted() : Sıralanmış dizi elementlerini döndürür.
-let öğrenciler2 = ["Kofi", "Abena", "Peter", "Kweku", "Akosua"]
+// sorted() : Diziyi sıralar.
+let öğrenciler2 = ["Kemal", "Aydın", "Polat", "Zeynep", "Ayşe"]
+
 let artanSıralama = öğrenciler2.sorted()
-print(artanSıralama)
 
-// sorted(by:) : Koleksiyonu, belirtilen kritere göre sıralar.
-let öğrenciler3 = ["Kofi", "Abena", "Peter", "Kweku", "Akosua"]
+// sorted(by: <#T##(String, String) throws -> Bool#>) : Diziyi, belirtilen kritere göre sıralar.
+let öğrenciler3 = ["Kemal", "Aydın", "Polat", "Zeynep", "Ayşe"]
+
 let azalanSıralama = öğrenciler3.sorted(by: >)
-print(azalanSıralama)
 
 let artanSıralama1 = öğrenciler3.sorted(by: <)
-print(öğrenciler3.sorted(by: <))
 
-// reverse() : Koleksiyonun elemanlarını yerinde tersine çevirir.
-var karakterler : [Character] = ["C", "a", "f", "é"]
+// reverse() : Dizinin elementlerini yerinde tersine çevirir.
+var karakterler : [Character] = ["K", "a", "h", "v", "e"]
 karakterler.reverse()
-print(karakterler)
 
-// shuffle() : karıştır
-var shuffleDizi = ["Alejandro", "Camila", "Diego", "Luciana", "Luis", "Sofía"]
+// shuffle() : Dizinin elementlerini karıştırır.
+var shuffleDizi = ["Kemal", "Aydın", "Polat", "Zeynep", "Ayşe", "Engin", "Ömer", "Utku"]
+
 shuffleDizi.shuffle()
-print(shuffleDizi)
-shuffleDizi.shuffled()
-print(shuffleDizi)
 
-// shuffled() : karıştır
+// shuffled() : Dizinin elementlerini karıştırır.
+shuffleDizi.shuffled()
+
 let shuffleAralık = 0...9
 let shuffledSayılar = shuffleAralık.shuffled()
-print(shuffledSayılar)
 
