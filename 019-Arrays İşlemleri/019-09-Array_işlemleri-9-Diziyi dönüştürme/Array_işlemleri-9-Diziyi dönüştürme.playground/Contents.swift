@@ -18,6 +18,7 @@ print(mapİle)
 
 let compactMapİle : [Int] = olasıSayılar.compactMap { str in Int(str) }
 print(compactMapİle)
+olasıSayılar
 
 // reduce(<#T##initialResult: Result##Result#>, <#T##nextPartialResult: (Result, Int) throws -> Result##(Result, Int) throws -> Result#>) : Dizi elementlerini kullanarak dizinin elementlerini birleştirerek bir sonuç döndürür. initialResult değerini başlangıç kabul ederek dizinin her bir elementini sırasıyla istediğimiz yüklemeye göre birleştirir.
 let reduceDizisi1 = [1, 2, 3, 4, 5, 6]
