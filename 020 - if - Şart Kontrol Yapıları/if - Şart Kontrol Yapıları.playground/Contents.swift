@@ -14,15 +14,6 @@ if havaSıcaklığı1 >= 30 {
     print("Hava sıcaklığı \(havaSıcaklığı1)C. Hava gerçekten sıcak.")
 }
 
-// Örnek - 2
-var örnekKelime = "admin@swiftkodlamadersleri.com"
-
-if örnekKelime.contains("@") && örnekKelime.contains(".") {
-    print("Bunun bir mail adresi olabilme ihtimali var.")
-} else {
-    print("Bunun bir mail adresi olabilme ihtimali yok.")
-}
-
 /* -------------------- Yapı - 2 ---------------------- */
 /*
  if condition {
@@ -41,7 +32,6 @@ if havaSıcaklığı2 >= 30 {
     print("Hava sıcaklığı \(havaSıcaklığı2)C. Hava yeterince sıcak değil.")
 }
 
-
 // Örnek - 2
 let sayı1Durum = "10"
 let sayı2Durum = "10.2"
@@ -54,6 +44,15 @@ if sayı1Durum.contains(".") || sayı2Durum.contains(".") {
     print("Nokta içermiyor, öyleyse her ikiside Integer olmalı.")
     let sayıTopla = Int(sayı1Durum)! + Int(sayı2Durum)!
     print("Sonuç : \(sayıTopla)")
+}
+
+// Örnek - 3
+var örnekKelime = "admin@swiftkodlamadersleri.com"
+
+if örnekKelime.contains("@") && örnekKelime.contains(".") {
+    print("Bunun bir mail adresi olabilme ihtimali var.")
+} else {
+    print("Bunun bir mail adresi olabilme ihtimali yok.")
 }
 
 
